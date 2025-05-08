@@ -19,5 +19,6 @@ export default defineConfig({
         overlay: true
       }
     }
-  }
+  },
+  site: 'https://vedawellnesscenter.com/',
 });
