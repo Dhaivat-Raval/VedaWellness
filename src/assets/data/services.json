@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Carbon Facial Treatment",
+    "description": "Deep-cleansing facial to rejuvenate and purify the skin using carbon laser technology.",
+    "media_url": "/images/services/carbon-facial.png",
+    "thumbnail_url": "/images/services/carbon-facial.png",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Diamond Skin Polishing",
+    "description": "Rejuvenate your skin with our Diamond Skin Polishing treatment. This non-invasive procedure exfoliates dead skin cells, improves skin texture, and gives you a radiant, smooth complexion instantly.",
+    "media_url": "/images/services/diamond-polishing-treatment.jpg",
+    "thumbnail_url": "/images/services/diamond-polishing-treatment.jpg",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Anti-Aging Fractional Laser Treatment",
+    "description": "Stimulate collagen and reduce fine lines with cutting-edge fractional laser therapy.",
+    "media_url": "/images/services/anti-aging-laser.png",
+    "thumbnail_url": "/images/services/anti-aging-laser.png",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Photo Facial Treatment",
+    "description": "Revitalize your skin with our Photo Facial treatment. Using advanced light-based technology, it targets pigmentation, sun damage, and redness to reveal a clearer, more even-toned complexion.",
+    "media_url": "/images/services/photo-facial-treatment.avif",
+    "thumbnail_url": "/images/services/photo-facial-treatment.avif",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Glutathione Treatment",
+    "description": "Brighten your complexion and detox your skin with powerful antioxidant therapy.",
+    "media_url": "/images/services/glutathione.jpg",
+    "thumbnail_url": "/images/services/glutathione.jpg",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Chemical Peels",
+    "description": "Exfoliate dead skin and reveal a smoother, clearer, more radiant complexion.",
+    "media_url": "/images/services/chemical-peel.png",
+    "thumbnail_url": "/images/services/chemical-peel.png",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Glowing Peels",
+    "description": "Achieve a natural, radiant glow with our customized peeling treatment.",
+    "media_url": "/images/services/glowing-peels.jpg",
+    "thumbnail_url": "/images/services/glowing-peels.jpg",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Reduced Ingrown Hair by Laser Treatment",
+    "description": "Say goodbye to painful ingrown hairs with precise laser solutions.",
+    "media_url": "/images/services/ingrown-hair.jpg",
+    "thumbnail_url": "/images/services/ingrown-hair.jpg",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Beard Shaping Treatment",
+    "description": "Define your beard with expert shaping for a clean and confident look.",
+    "media_url": "/images/services/beard-shaping.png",
+    "thumbnail_url": "/images/services/beard-shaping.png",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Tattoo Removal",
+    "description": "Erase unwanted ink safely and effectively with our advanced laser tattoo removal treatments. Our state-of-the-art technology targets tattoo pigments, breaking them down for natural elimination by the body. Suitable for various ink colors and skin types, our procedures are designed to minimize discomfort and reduce the risk of scarring.",
+    "media_url": "/images/services/tattoo-removal-treatment.jpg",
+    "thumbnail_url": "/images/services/tattoo-removal-treatment.jpg",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Threading Treatment",
+    "description": "Precision eyebrow and facial threading for a smooth, flawless appearance.",
+    "media_url": "/images/services/threading.jpg",
+    "thumbnail_url": "/images/services/threading.jpg",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Waxing Treatment",
+    "description": "Silky smooth skin with our gentle and effective waxing services.",
+    "media_url": "/images/services/waxing.jpg",
+    "thumbnail_url": "/images/services/waxing.jpg",
+    "media_type": "image",
+    "link": "/contact"
+  },
+  {
+    "title": "Full Body Laser Hair Removal",
+    "description": "Experience smooth, hair-free skin from head to toe with our Full Body Laser Hair Removal treatment. Safe, effective, and long-lasting ideal for all skin types and customized to your needs.",
+    "media_url": "/images/services/full-body-laser-treatmen.avif",
+    "thumbnail_url": "/images/services/full-body-laser-treatmen.avif",
+    "media_type": "image",
+    "link": "/contact"
+  },  
+  {
+    "title": "Money Saving Treatments",
+    "description": "Discover treatments that combine quality and affordability, helping you save while you glow.",
+    "media_url": "/images/services/money-saving.jpg",
+    "thumbnail_url": "/images/services/money-saving.jpg",
+    "media_type": "image",
+    "link": "/contact"
+  }
+]

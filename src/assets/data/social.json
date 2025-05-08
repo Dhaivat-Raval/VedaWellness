@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "title": "Time-Saving Laser Hair Removal",
+        "description": "Laser hair removal is a medical procedure that uses a concentrated beam of light (laser) to remove unwanted hair.",
+        "media_url": "/videos/social/laser-hair-removal.mp4",
+        "thumbnail_url": "/images/social/laser-remove-thumb.jpg",
+        "media_type": "video",
+        "link": "/contact"
+    },
+    {
+        "id": 2,
+        "title": "Alopecia Areata Treatment",
+        "description": "Alopecia Areata is an autoimmune condition where the body attacks its own hair follicles. It causes sudden, patchy hair loss but with the right treatment, regrowth is possible.",
+        "media_url": "/videos/social/alopecia-areata.mp4",
+        "thumbnail_url": "/images/social/alopecia-areata-thumb.jpg",
+        "media_type": "video",
+        "link": "/contact"
+    },
+    {
+        "id": 3,
+        "title": "Acne Treatment",
+        "description": "Acne treatment involves various methods to reduce or eliminate acne and its associated scars.",
+        "media_url": "/videos/social/acne-treatment.mp4",
+        "thumbnail_url": "/images/social/acne-treatment-thumb.jpg",
+        "media_type": "video",
+        "link": "/contact"
+    },
+    {
+        "id": 4,
+        "title": "Skin Tag Removal",
+        "description": "Tag, you’re out! Say goodbye to those pesky skin tags and hello to smoother skin.",
+        "media_url": "/videos/social/skin-tag-removal.mp4",
+        "thumbnail_url": "/images/social/skin-tag-removal-thumb.jpg",
+        "media_type": "video",
+        "link": "/contact"
+    },
+    {
+        "id": 5,
+        "title": "Teeth Whitening",
+        "description": "Brighten your smile with professional teeth whitening — see the before and after results.",
+        "media_url": "/images/social/teath-whitening-thumb.jpg",
+        "thumbnail_url": "/images/social/teath-whitening-thumb.jpg",
+        "media_type": "image",
+        "link": "/contact"
+    },
+    {
+        "id": 6,
+        "title": "Vampayer Treatment Now in Rajkot!",
+        "description": "Introducing our exclusive Vampayer Treatment – the ultimate skincare solution for rejuvenated, glowing skin in Rajkot! ✨ Using your body’s own platelet-rich plasma, we boost collagen, smooth fine lines, and leave your skin radiant. Say goodbye to dullness and hello to a youthful glow! 💉✨\n\n📍 Now available in Rajkot.\n📅 Book your appointment today.\n📞 Contact us via link in bio!",
+        "media_url": "/images/social/vampayer-treatment.png",
+        "thumbnail_url": "/images/social/vampayer-treatment.png",
+        "media_type": "image",
+        "link": "/contact"
+      }
+]
+  

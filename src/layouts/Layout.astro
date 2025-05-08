@@ -1,0 +1,157 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+}
+
+const { 
+  title = "Veda Aesthetica Clinic | Premium Aesthetic Treatments", 
+  description = "Veda Aesthetica Clinic offers premium aesthetic treatments with cutting-edge technology and expert practitioners. Book your consultation today.",
+  ogImage = "/images/veda-aesthetica.png"
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="/favicon.jpg" />
+    
+    <meta name="language" content="en" />
+    <meta name="geo.region" content="IN-GJ" />
+
+    <meta name="keywords" content="aesthetic clinic, Veda Aesthetica, Rajkot skincare, skin treatments, botox, laser" />
+    <meta name="author" content="Veda Aesthetica Clinic" />
+
+    <!-- Primary Meta Tags -->
+    <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(ogImage, Astro.url)} />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={Astro.url} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={new URL(ogImage, Astro.url)} />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Preload Images -->
+    <link rel="preload" as="image" href="/images/veda-aesthetica.png" />
+    <link rel="preload" as="image" href="/images/hero-image.jpg" />
+
+
+    <!-- Google Tag Manager -->
+    <!-- <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-XXXXXXX');
+    </script> -->
+    
+    <!-- Structured Data / Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Veda Aesthetica Clinic",
+        "image": "/images/veda-aesthetica.png",
+        "url": "https://www.vedaskinclinicrajkot.com/", // Replace with your actual URL
+        "telephone": "+91-080427-53349",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1(A),oppositie, KTM showroom",
+          "addressLocality": "Amin Marg, Gulab Vatika",
+          "addressRegion": "Rajkot, Gujarat",
+          "postalCode": "360001",
+          "addressCountry": "India"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 22.2841,
+          "longitude": 70.7749
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "10:30",
+            "closes": "20:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/profile.php?id=61555339659885",
+          "https://www.instagram.com/veda_aesthetica_clinic/",
+          "https://www.youtube.com/@DeepanshaP.Trivedi"
+        ]
+      }
+    </script>
+  </head>
+  <body class="min-h-screen flex flex-col bg-neutral-50">
+    <!-- Google Tag Manager (noscript) -->
+    <!-- <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript> -->
+    
+    <Header />
+    
+    <main class="flex-grow">
+      <slot />
+    </main>
+    
+    <Footer />
+    
+    <!-- Intersection Observer for Lazy Loading -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const lazyImages = document.querySelectorAll('[data-lazy]');
+        
+        if ('IntersectionObserver' in window) {
+          const imageObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.classList.remove('opacity-0');
+                img.classList.add('opacity-100');
+                imageObserver.unobserve(img);
+              }
+            });
+          }, {
+            rootMargin: '50px 0px',
+            threshold: 0.01
+          });
+          
+          lazyImages.forEach(img => {
+            imageObserver.observe(img);
+          });
+        } else {
+          // Fallback for browsers without Intersection Observer
+          lazyImages.forEach(img => {
+            img.src = img.dataset.src;
+            img.classList.remove('opacity-0');
+            img.classList.add('opacity-100');
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
